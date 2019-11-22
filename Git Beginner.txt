@@ -1,19 +1,19 @@
 
-Git init       :novi local repp
-Git add ..  :dodaje sve fileove u staging area
-Git add "prvi.txt"  :dodaje file prove u staging area
-Git commit -m  "Poruka"    :commit
-Git log               :pokazuje sve commitove
-Git log author="Tin"  :pokazuje sve commitove od Tin
-Git status         :pokazuje sve fileove koji su modificirani
-Git diff         :pokazuje promjene u nekom fajlu
-Git diff --staged       :pokazuje razilke u stageing area I u repu
-Git rm "ime"               :brise file
-Git reset HEAD "ime.text"           :mice ime.text iz staging area
+Git init				:novi local repp
+Git add .  				:dodaje sve fileove u staging area
+Git add "prvi.txt"  			:dodaje file prove u staging area
+Git commit -m  "Poruka"			:commit
+Git log               			:pokazuje sve commitove
+Git log author="Tin"  			:pokazuje sve commitove od Tin
+Git status         			:pokazuje sve fileove koji su modificirani
+Git diff         			:pokazuje promjene u nekom fajlu
+Git diff --staged       		:pokazuje razilke u stageing area I u repu
+Git rm "ime"               		:brise file
+Git reset HEAD "ime.text"   		:mice ime.text iz staging area
 
 REMOTE RAD
-Git remote add origin(bilo koje ime) https://...  :alijas za url na githubu
-Git push -u origin(ili ime alijasa)  // -u znaci dodaj sve iz local repo
-Git remote         :prikazuje sve alijase za github
+Git remote add origin(bilo koje ime) https://...  	:alijas za url na githubu
+Git push -u origin(ili ime alijasa)  			: -u znaci dodaj sve iz local repo
+Git remote         					:prikazuje sve alijase za github
 
-//Kada se doda file sa git add .. oni idu u staging area (fileovi koji su spremni za commit)}
+//Kada se doda file sa git add . oni idu u staging area (fileovi koji su spremni za commit)
