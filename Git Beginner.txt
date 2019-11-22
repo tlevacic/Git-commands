@@ -10,6 +10,7 @@ Git diff         			:pokazuje promjene u nekom fajlu
 Git diff --staged       		:pokazuje razilke u stageing area I u repu
 Git rm "ime"               		:brise file
 Git reset HEAD "ime.text"   		:mice ime.text iz staging area
+git reset --hard			:resetira cijeli branch do zadnjeg commita (brise sve sto si napravio od zadnjeg commita)
 
 REMOTE RAD
 Git remote add origin(bilo koje ime) https://...  	:alijas za url na githubu
