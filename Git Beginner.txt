@@ -1,16 +1,17 @@
 
-Git init				:novi local repp
-Git add .  				:dodaje sve fileove u staging area
-Git add "prvi.txt"  			:dodaje file prove u staging area
-Git commit -m  "Poruka"			:commit
-Git log               			:pokazuje sve commitove
-Git log author="Tin"  			:pokazuje sve commitove od Tin
-Git status         			:pokazuje sve fileove koji su modificirani
-Git diff         			:pokazuje promjene u nekom fajlu
-Git diff --staged       		:pokazuje razilke u stageing area I u repu
+Git init				              :novi local repp
+Git add .  				            :dodaje sve fileove u staging area
+Git add "prvi.txt"  			    :dodaje file prove u staging area
+Git commit -m  "Poruka"			  :commit
+Git log               			  :pokazuje sve commitove
+Git log author="Tin"  			  :pokazuje sve commitove od Tin
+Git status         			      :pokazuje sve fileove koji su modificirani
+Git diff         			        :pokazuje promjene u nekom fajlu
+Git diff --staged       		  :pokazuje razilke u stageing area I u repu
 Git rm "ime"               		:brise file
-Git reset HEAD "ime.text"   		:mice ime.text iz staging area
-git reset --hard			:resetira cijeli branch do zadnjeg commita (brise sve sto si napravio od zadnjeg commita)
+Git reset HEAD "ime.text"   	:mice ime.text iz staging area
+git reset --hard			        :resetira cijeli branch do zadnjeg commita (brise sve sto si napravio od zadnjeg commita)
+git checkout -b ime_brancha   :kreira novi branch sa imenom: ime_brancha (branch se kreira iz brancha u kojem se nalazis
 
 REMOTE RAD
 Git remote add origin(bilo koje ime) https://...  	:alijas za url na githubu
